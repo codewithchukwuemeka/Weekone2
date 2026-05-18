@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100%;
+max-width: 95%;
+margin: auto;
+}
+
+header{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.ul-class{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.ul-class li{
+    margin: 10px;
+    font-size: 25px;
+    padding: 5px 40px;
+}
+
+.ul-class li a{
+    text-decoration: none;
+}
+
+.nav-button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav-button a{
+    text-decoration: none;
+}
+
+.b-ul{
+    color:black;
+}
+
+/* hero section */
+
+.hero{
+    background: linear-gradient(135deg,#7b00ff,#d100ff);
+    border-radius: 35px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-text{
+    width: 55%;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.highlight{
+    background: yellow;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.hero-text p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    color: #f0f0f0;
+
+}
+
+.hero-bottpm{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.contact-btn{
+    background: yellow;
+    color: black;
+    border: none;
+    padding: 18px 45px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stats h2{
+    font-size: 42px;
+
+}
+
+.stats span{
+    font-size: 15px;
+    color: #ee;
+}
+
+
+/* hero image */
+.hero-image{
+    width: 320px;
+    height: 500px;
+    background: linear-gradient(180deg,#ff9800,#ff0066,#00bfff);
+    border-radius: 50px;
+    transform: rotate(20deg);
+    box-shadow: 0 20px 40px rgba(0,0,0,0,4);
+    position: relative;
+
+}
+
+.hero-image::before,
+.hero-image::after{
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+}
+
+.hero-image ::before{
+    width: 120px;
+    height: 120px;
+    top: 40px;
+    right: 30px;
+}
+
+.hero-image ::after{
+    width: 90px;
+    height: 90px;
+    bottom: 50px;
+    left: 40px;
+}
+
+
+
+/* cards   ............... */
+
